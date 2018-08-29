@@ -1,4 +1,4 @@
-# colorChanger
+# bodyColorChanger
 
 hello, just for fun bc I am learning JS, I am trying to make a body color changer.
 
