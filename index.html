@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
 
-    <style>
-.purple {
-  background: purple;
-}
+<head>
 
-   .blue {
-  background: blue;
-}
-</style>
+  <style>
+    #box {
+      width: 50px;
+      height: 50px;
+      border: 3px black solid;
+    }
 
-    <meta charset="utf-8">
-    <title>Script Demo</title>
-  </head>
-  <body>
-    <button onclick="purpleFunction()">Purple body</button>
+    .purple {
+      background: purple;
+    }
 
-        <button onclick="blueFunction()">Blue body</button>
+    .blue {
+      background: blue;
+    }
 
-  </body>
+    .white {
+      background: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="box"></div>
+
+  <div>
+    <button onclick="colorChanger.white()">White </button>
+
+    <button onclick="colorChanger.purple()">Purple </button>
+
+    <button onclick="colorChanger.blue()">Blue </button>
+
+        <button onclick="colorChanger.reset()">Reset </button>
+  </div>
+</body>
+
 </html>
