@@ -12,6 +12,7 @@
 
     .purple {
       background: purple;
+      border: 3px solid;
     }
 
     .blue {
@@ -26,21 +27,15 @@
 
 <body>
 
-  <div id="box"></div>
+<div id="box"></div>
+<div>
+    <button onclick="colorChanger.changeTo('purple')">purple </button>
+    <button onclick="colorChanger.changeTo('blue')">blue </button>
+    <button onclick="colorChanger.changeTo('white')">White </button>
 
-  <div>
-    <button onclick="colorChanger.white()">White </button>
-
-    <button onclick="colorChanger.purple()">Purple </button>
-
-    <button onclick="colorChanger.blue()">Blue </button>
-
-        <button onclick="colorChanger.reset()">Reset </button>
-  </div>
-
-
-  <!-- Theme JavaScript -->
-        <script src="script.js" async="async"></script>
+</div>
+<!-- Theme JavaScript -->
+      <script src="script.js" async="async"></script>
 </body>
 
 </html>
